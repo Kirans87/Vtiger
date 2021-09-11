@@ -57,6 +57,10 @@ import com.vtiger.comcast.pomrepository.library.HomePage;
 				
 		//verifying Header text in contact information page is correct
 		contactInfo.isContactInfoHeaderCorrect(contactName);
+		boolean assignedToText = contactInfo.getAssignedToText().getText().contains(assignedGroup);
+		Assert.assertTrue(assignedToText, "Assigned to  is Not correct");
+			System.out.println("Assigned To is selected As "+assignedGroup);
+		
 	}
 	
 	@Test(groups = {"regression-testing"})
@@ -79,6 +83,9 @@ import com.vtiger.comcast.pomrepository.library.HomePage;
 				
 		//verifying Header text in contact information page is correct
 		contactInfo.isContactInfoHeaderCorrect(contactName);
+		boolean assignedToText = contactInfo.getAssignedToText().getText().contains(assignedGroup);
+		Assert.assertTrue(assignedToText, "Assigned to  is Not correct");
+			System.out.println("Assigned To is selected As "+assignedGroup);
 	}
 	
 	@Test(groups = {"regression-testing"})
@@ -101,6 +108,9 @@ import com.vtiger.comcast.pomrepository.library.HomePage;
 				
 		//verifying Header text in contact information page is correct
 		contactInfo.isContactInfoHeaderCorrect(contactName);
+		boolean assignedToText = contactInfo.getAssignedToText().getText().contains(assignedGroup);
+		Assert.assertTrue(assignedToText, "Assigned to  is Not correct");
+			System.out.println("Assigned To is selected As "+assignedGroup);
 	}
 	
 	@Test(groups = {"regression-testing"})
@@ -123,6 +133,9 @@ import com.vtiger.comcast.pomrepository.library.HomePage;
 				
 		//verifying Header text in contact information page is correct
 		contactInfo.isContactInfoHeaderCorrect(contactName);
+		boolean assignedToText = contactInfo.getAssignedToText().getText().contains(assignedGroup);
+		Assert.assertTrue(assignedToText, "Assigned to  is Not correct");
+			System.out.println("Assigned To is selected As "+assignedGroup);
 	}
 	
 	
