@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateContactTest(failed)">
+    <classes>
+      <class name="contact.CreateContactTest">
+        <methods>
+          <include name="CreatingContactwithAssignedToSupportGroupTest"/>
+          <include name="beforeClassConfiguration"/>
+          <include name="afterMethodConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="afterClassConfiguration"/>
+        </methods>
+      </class> <!-- contact.CreateContactTest -->
+    </classes>
+  </test> <!-- CreateContactTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
