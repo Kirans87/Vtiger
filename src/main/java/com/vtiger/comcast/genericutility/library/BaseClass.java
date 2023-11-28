@@ -21,8 +21,8 @@ public class BaseClass {
 	@BeforeClass(groups = {"smoke-testing","regression-testing"})
 	public void beforeClassConfiguration() throws Throwable {
 		//launching the browser
-		String browser=System.getProperty("browser");
-		//String browser=fL.getPropertyKeyValue("browser");
+		//String browser=System.getProperty("browser");
+		String browser=fL.getPropertyKeyValue("browser");
 		if(browser.equals("chrome")) {
 			
 			driver= new ChromeDriver();
