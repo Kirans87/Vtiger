@@ -10,7 +10,6 @@
           <include name="beforeClassConfiguration"/>
           <include name="afterMethodConfiguration"/>
           <include name="CreatingContactwithAssignedToMarketingGroupTest"/>
-          <include name="CreatingContactwithAssignedToAdministratorTest"/>
           <include name="beforeMethodConfiguration"/>
           <include name="afterClassConfiguration"/>
           <include name="CreatingContactwithLeadSource"/>
