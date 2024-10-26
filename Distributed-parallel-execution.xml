@@ -3,12 +3,12 @@
 <suite name="Suite" parallel="tests" thread-count="2">
   <test name="CreateContactTest-runner1">
     <classes>
-      <class name="contact.Tc_CreateContactTest"/>
+      <class name="contact.CreateContactTest"/>
     </classes>
   </test> <!-- CreateContactTest -->
   <test name="CreateContactTest-runner2">
     <classes>
-      <class name="contact.Tc_CreateContactTest"/>
+      <class name="contact.CreateContactTest"/>
     </classes>
   </test> <!-- CreateContactTest -->
 </suite> <!-- Suite -->
